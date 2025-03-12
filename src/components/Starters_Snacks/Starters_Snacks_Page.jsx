@@ -1,12 +1,14 @@
 import React from 'react'
 import Starters from './Starters'
-import SNACKS from './SNACKS.JSX'
+import Snacks from './Snacks'
+
+
 
 const Starters_Snacks_Page = () => {
   return (
     <>
     <Starters />
-    <SNACKS />
+    <Snacks/>
     </>
   )
 }
