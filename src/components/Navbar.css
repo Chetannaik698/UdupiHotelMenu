@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+.custom-navbar {
+    background-color: #fff; /* Light background */
+    padding: 12px 24px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand .brand-name {
+    font-family: 'Pacifico', cursive; /* Stylish font */
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2851,51,51,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-nav .nav-item {
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 4px;
+  }
+  
+  .navbar-nav .nav-link.nav-link:hover {
+    color: #fff;
+    background-color: #007bff; 
+  }
+
+  .custom-navbar {
+    padding: 10px 20px;
+  }
+  
+  /* Ensure the menu slides in from the right */
+  .offcanvas.offcanvas-end {
+    width: 300px;
+  }  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-nav .nav-item {
+      margin: 10px 0;
+    }
+  }
