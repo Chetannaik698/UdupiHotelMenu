@@ -5,7 +5,7 @@ import Main_Course from './components/Main_Course/Main_Course';
 import Navbar from './components/Navbar'
 import Rice_Nodels_Page from './components/Rice_Noddels/Rice_Nodels_Page';
 import Starters_Snacks_Page from './components/Starters_Snacks/Starters_Snacks_Page';
-import Tagline from './components/Tagline'
+import Tagline from './components/TagLine.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
